@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 items in a row */
+    gap: 20px; /* Space between items */
+    padding: 20px;
+}
+
+.furniture-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.furniture-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+.review {
+    color: #666;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background for better contrast */
+}
+
+/* Header Styles */
+header {
+    background-color: #fff; /* White header background */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+    margin: 0;
+    color: #333; /* Darker text for readability */
+}
+
+/* Bed Gallery Styles */
+.bed-gallery {
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 images in one row */
+    gap: 20px; /* Spacing between images */
+    max-width: 1200px; /* Max width for the grid */
+    margin: auto; /* Center the grid */
+}
+
+.grid-item {
+    background-color: #fff; /* White background for items */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+.grid-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.grid-item img {
+    width: 100%; /* Make images responsive */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+.price {
+    font-size: 1.5em; /* Larger font for price */
+    color: #27ae60; /* Green color for price */
+    margin: 10px 0; /* Spacing around price */
+}
+
+.review {
+    font-size: 1em; /* Standard font size for reviews */
+    color: #666; /* Light grey for reviews */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* White footer background */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
